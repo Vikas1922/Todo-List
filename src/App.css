@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#root{
+    position: relative;
+    /* max-height: 100%; */
+    /* border: 1px solid red; */
+    height: 638px;
+}
+
+.container{
+    border: 1px solid white;
+    width: 336px;
+    min-height: 402px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Todo_items{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    margin: 20px 0px;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 17px;
+}
+
+.btn{
+    border: 0.5px solid grey;
+    outline: none;
+    width: 67px;
+    height: 100%;
+    background-color: transparent;
+    color: red;
+}
+
+.todo{
+    /* border: 1px solid red; */
+    /* height: 320px; */
+    padding: 18px 27px;
+
+}
+
+ul{
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    
+    color: white;
+    font-size: 22px;
+   
+}
+
+.todo_list{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
